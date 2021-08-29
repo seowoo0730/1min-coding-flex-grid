@@ -64,10 +64,12 @@
 .user-list {
   margin-bottom: 2rem;
 }
+
 .user-item {
   display: flex;
   margin-bottom: 1.5em;
 }
+
 .user-photo {
   flex-shrink: 0;
   width: 50px;
@@ -79,4 +81,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
+}
+
+/* friend list */
+.friend-item {
+  align-items: center;
+}
+
+.user-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
